@@ -6,7 +6,7 @@ const ButtonForProfile = () => {
   const handleButtonClick = (buttonName) => {
     setSelectedButton(buttonName);
   };
-
+// begin with
   const getButtonClassName = (buttonName) => {
     return `text-black font-medium rounded-xl text-sm px-5 py-2.5 text-center m-2 ${
       selectedButton === buttonName ? 'bg-purple-200 text-purple-900' : ''
