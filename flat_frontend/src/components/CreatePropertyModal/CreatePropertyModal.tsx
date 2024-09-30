@@ -6,6 +6,7 @@ import Form from "react-bootstrap/Form";
 import Row from "react-bootstrap/Row";
 import { AiOutlineClose } from "react-icons/ai";
 
+// making changes in the modal box
 interface NameValue {
   name: string;
   value: string;
