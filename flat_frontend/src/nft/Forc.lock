@@ -1,0 +1,35 @@
+[[package]]
+name = 'NFT'
+source = 'member'
+dependencies = [
+    'std',
+    'storage_string',
+    'string git+https://github.com/FuelLabs/sway-libs?default-branch#b22a1975f3639f0bf5e53cfa13443ebfff0e9413',
+]
+
+[[package]]
+name = 'core'
+source = 'path+from-root-1AA1C8235B783A81'
+
+[[package]]
+name = 'std'
+source = 'git+https://github.com/fuellabs/sway?tag=v0.38.0#2d16d70ab9d5ab0de0255941048f811b6d07c6b1'
+dependencies = ['core']
+
+[[package]]
+name = 'storage_string'
+source = 'git+https://github.com/FuelLabs/sway-libs?default-branch#b22a1975f3639f0bf5e53cfa13443ebfff0e9413'
+dependencies = [
+    'std',
+    'string path+from-root-59B8B2FC9AEB490D',
+]
+
+[[package]]
+name = 'string'
+source = 'git+https://github.com/FuelLabs/sway-libs?default-branch#b22a1975f3639f0bf5e53cfa13443ebfff0e9413'
+dependencies = ['std']
+
+[[package]]
+name = 'string'
+source = 'path+from-root-59B8B2FC9AEB490D'
+dependencies = ['std']

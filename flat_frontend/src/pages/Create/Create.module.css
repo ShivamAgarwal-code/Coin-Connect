@@ -1,0 +1,14 @@
+.media {
+  border: 3px dashed rgb(204, 204, 204);
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  height: 257px;
+  width: 350px;
+  display: flex;
+  cursor: pointer;
+}
+.media:hover {
+  border-color: gray;
+}

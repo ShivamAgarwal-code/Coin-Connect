@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.modal-content-profile {
+  background-color: #fff;
+  width: 50%;
+  height: 50%;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.bg-hero {
+  background: linear-gradient(90deg, #fff, #fff 50%, transparent),
+    url(https://static-assets.lenster.xyz/images/hero.webp);
+  background-size: cover;
+}
+
+.divider {
+  border-bottom-width: 1px;
+}
