@@ -21,12 +21,7 @@ const AppNavbar = () => {
         <Navbar.Brand>
           <Link to="/">
             Fuelart
-            {/* <img
-              alt=""
-              src={logo}
-              height="50"
-              className="d-inline-block align-top"
-            /> */}
+            
           </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbar" />
